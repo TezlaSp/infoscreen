@@ -18,10 +18,6 @@ function DadJokes() {
         getJoke();
     }, []);
 
-    useEffect(() => {
-        console.log(joke)
-    }, [joke]);
-
     return (
         <div className="joke">
             <h2>Dad Joke</h2>
